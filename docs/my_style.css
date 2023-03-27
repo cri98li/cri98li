@@ -1,0 +1,56 @@
+/* From https://css.glass */
+
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    padding-top: 10px;
+}
+
+.navbar{
+    border-radius: 30px !important;
+    margin-bottom: 160px;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.7px);
+    -webkit-backdrop-filter: blur(10.7px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.t,img{
+    position: relative;
+    border-radius:50%;
+}
+.card{
+    margin: auto;
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+    box-shadow:0 1rem 3rem rgba(0,0,0,.175);
+    border-radius: 25px;
+}
+.paragarph-center{
+    text-align: center;
+}
+.circle-photo{
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    margin: -100px 0px 0px 150px;
+    width: 180px;
+    height: 180px;
+    border-radius:100%;
+    position: relative;
+}
+.title{
+    margin-top: 20px;
+}
+
+.control-ps{
+    position: relative;
+}
